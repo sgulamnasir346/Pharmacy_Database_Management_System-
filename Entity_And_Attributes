@@ -1,0 +1,7 @@
+Employee (emp_id, name, dept, position, salary, city, dob, doj)
+Client (client_id, name, city, street, number)
+Product (product_id, name, exp_date, price)
+Stock (stock_id, quantity, category_of_drugs)
+Mode_of_transport (vehicle_id, driver_id, transport_type, delivery_date)
+Transaction (transaction_id, payment_type, total_payment, no_of_instalments, invoice)
+Sales (sales_id, profit, sales_amount)
