@@ -1,0 +1,3 @@
+All the attributes in every entity does not have any Partial and Transitive Dependency. Therefore it is in 3NF.
+Also in every table there is a candidate key and every determinant is also a candidate key.
+Hence it is in BCNF also.
