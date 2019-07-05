@@ -1,0 +1,8 @@
+deals_with 1:M employee with client; employee partial, client total
+orders M:N client with product: client partial, product total
+availability_for M:1 stock with product; both total
+transferred_via M:1 product with mode_of_transport; product total, mode_of_transport partial
+delivered_to 1:M mode_of_transport with client; attribute delivery_date; mode_of_transport partial, client total
+transacts M:1 client with transaction; attribute transaction_date; both total
+works_for N:1 executive_officer with manager(an employee works for only one manager & a manager supervises more employees); executive officer total, manager partial
+sales_of M:N sales with product; product partial, sales total
